@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects | Dawensly Francois</title>
+        <meta name="description" content="Projects by Dawensly Francois.">
+        <!-- Theme script runs first so the page never flashes the wrong theme -->
+        <script src="../Scripting/theme.js"></script>
+        <link rel="stylesheet" href="../Style/index-style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="topbar">
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+                <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="5"/>
+                    <line x1="12" y1="1" x2="12" y2="3"/>
+                    <line x1="12" y1="21" x2="12" y2="23"/>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                    <line x1="1" y1="12" x2="3" y2="12"/>
+                    <line x1="21" y1="12" x2="23" y2="12"/>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                </svg>
+            </button>
+
+            <nav class="nav" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <span class="slash" aria-hidden="true">/</span>
+                <a href="../Assets/Docs/Resume-2026.pdf" target="_blank" rel="noopener">Resume</a>
+            </nav>
+        </header>
+
+        <main class="projects">
+            <h1>Projects</h1>
+            <p class="lede">Things I’ve built while learning.</p>
+
+            <article class="project">
+                <h2>Password Generator</h2>
+                <p>
+                    A tool for creating strong, secure passwords. Built with Java and Swing,
+                    it mostly serves as a learning project rather than a production application.
+                </p>
+                <ul class="tags">
+                    <li>Java</li>
+                    <li>Swing</li>
+                </ul>
+                <a class="link" href="https://github.com/dawensly/password-generator" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+
+            <article class="project">
+                <h2>AWS Honeypot <span class="status">In progress</span></h2>
+                <p> A cloud-based honeypot that imitates a vulnerable system to attract, log, and analyze
+                    unauthorized access attempts. I'm building it on AWS to get hands-on experience with
+                    cloud security monitoring and threat detection.
+                </p>
+                <ul class="tags">
+                    <li>AWS</li>
+                    <li>Cloud Security</li>
+               </ul>
+            </article>
+
+            <!-- Copy this block for each new project:
+            <article class="project">
+                <h2>Project Name</h2>
+                <p>One or two sentences on what it does and what you learned.</p>
+                <ul class="tags">
+                    <li>Tech</li>
+                    <li>Tech</li>
+                </ul>
+                <a class="link" href="REPO_URL" target="_blank" rel="noopener">View on GitHub →</a>
+            </article>
+            -->
+
+            <p class="more">More coming soon.</p>
+        </main>
+
+        <footer class="footer">
+    <p>© <span id="year">2026</span> Dawensly Francois</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+    </body>
+</html>
