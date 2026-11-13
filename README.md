@@ -2,7 +2,7 @@
 
 Personal portfolio site to showcase projects and other stuff
 
-**Live site:** https://dawgital.com
+**Live site:** https://dawensly.com
 
 ## Features
 - One-page layout with a skills dock and a separate Projects page
